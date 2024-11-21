@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="current-weather">
+    <div className="current-weather">
       <header>
         <form id="city-search">
           <input
@@ -15,24 +15,24 @@ function App() {
           <input
             type="submit"
             value="Search"
-            class="search-button"
+            className="search-button"
           />
         </form>
       </header>
 
-      <div class="heartOfProject">
+      <div className="heartOfProject">
         <div>
           <h1 id="currentLocation">Paris</h1>
-          <div class="information">
+          <div className="information">
             <span id="day">Saturday</span>
             <span id="time"> 15:32</span>, moderate rain <br />
             Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
           </div>
         </div>
-        <div class="currentTempreture">
-          <div class="emoji">☀️</div>
-          <div class="amount">14</div>
-          <dic class="unit">°C</dic>
+        <div className="currentTempreture">
+          <div className="emoji">☀️</div>
+          <div className="amount">14</div>
+          <dic className="unit">°C</dic>
         </div>
       </div>
 
@@ -42,7 +42,7 @@ function App() {
           <a
             href="#"
             target="_blank"
-            class="name"
+            className="name"
           >
             Natalie V.
           </a>{" "}
@@ -50,7 +50,7 @@ function App() {
           <a
             href="#"
             target="_blank"
-            class="gitHub"
+            className="gitHub"
           >
             {" "}
             on GitHub
@@ -59,7 +59,7 @@ function App() {
           <a
             href="#"
             target="_blank"
-            class="netlify"
+            className="netlify"
           >
             hosted on Netlify
           </a>

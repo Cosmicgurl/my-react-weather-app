@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+h1 {
+  display: block;
+  padding: 0;
+  margin: 0;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+strong {
+  color: #f65282;
+  font-size: 16px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.current-weather {
+  background: white;
+  width: 600px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 128.5px;
+  margin-right: 128.5px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+#location {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.heartOfProject {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.information {
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+}
+.currentTempreture {
+  display: flex;
+  justify-content: end;
+}
+.emoji {
+  font-size: 40px;
+  position: relative;
+  top: 26px;
+  margin-right: 10px;
+}
+.amount {
+  font-size: 80px;
+  font-weight: bold;
+}
+.unit {
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+}
+.name {
+  color: #885df1;
+}
+.gitHub {
+  color: #885df1;
+}
+.netlify {
+  color: #885df1;
+}
