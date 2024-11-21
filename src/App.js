@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -40,7 +39,8 @@ function App() {
         <p>
           This project was coded by
           <a
-            href="#"
+            rel="noreferrer"
+            href="https://github.com/Cosmicgurl"
             target="_blank"
             className="name"
           >
@@ -48,7 +48,8 @@ function App() {
           </a>{" "}
           and is
           <a
-            href="#"
+            rel="noreferrer"
+            href="https://github.com/Cosmicgurl/my-react-weather-app"
             target="_blank"
             className="gitHub"
           >
@@ -57,7 +58,8 @@ function App() {
           </a>{" "}
           and
           <a
-            href="#"
+            rel="noreferrer"
+            href="https://app.netlify.com/sites/dynamic-buttercream-fbb9f0/deploys/673f14a98891d6734408c013"
             target="_blank"
             className="netlify"
           >
